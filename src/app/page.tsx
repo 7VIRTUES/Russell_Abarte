@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <section className={styles.hero}>
+        <header className={styles.hero}>
           <Image
             className={styles.photo}
             src="/profile-placeholder.svg"
@@ -18,7 +18,7 @@ export default function Home() {
             <h1>Russell Abarte</h1>
             <p>Welcome to my personal website.</p>
           </div>
-        </section>
+        </header>
 
         <section className={styles.section}>
           <h2>Degree & Certificates</h2>
